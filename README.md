@@ -1,11 +1,11 @@
-# odin-recepies
+# odin-recipes
 
-This project is a simple recepie web page built as part of The Odin Project curriculum. 
+This project is a simple recipe web page built as part of The Odin Project curriculum. 
 The goal of this project is to practice HTML skills by creating a simple multi page website
-that links a couple of recepies together.
+that links a couple of recipes together.
 
-The page will have a main index page and multiple recepie pages. Each recepie page will
-include a title, image, description, ingredients list, and a coocking instruction.
+The page will have a main index page and multiple recipe pages. Each recipe page will
+include a title, image, description, ingredients list, and a cooking instruction.
 
 By completing this project i will have demonstrated:
 
