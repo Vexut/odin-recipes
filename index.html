@@ -3,20 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <h2>Main Dishes:</h2>
-    <ul>
-         <li><a href="recipes/pizza.html">Pizza</a></li>
-         <li><a href="recipes/garlic-butter-chicken.html">Garlic Butter Chicken</a></li>
-    </ul>
-   
-    <h2>Desserts:</h2>
-    <ul>
-        <li><a href="recipes/lava-cake.html">Lava cake</a></li>
-    </ul>
-    
+    <div class="container">
+        <header>
+            <h1>Odin Recipes</h1>
+        </header>
+        <div class="recipe-grid">
+            <h2>Main Dishes</h2>
+            <div class="recipe-row">
+                <a class="recipe-card"
+                    href="recipes/garlic-butter-chicken.html">
+                    <img src="recipes/images/garlic-butter-chicken.jpg" alt="garlic butter chicken">
+                    <h3>garlic chicken</h3>
+                </a>
+                <a href="recipes/pizza.html" class="recipe-card">
+                    <img src="recipes/images/pizza.jpg" alt="pizza">
+                    <h3>Pizza</h3>
+                </a>
+                    
+            </div>
+            <h2>Desserts</h2>
+            <div class="recipe-row">
+                <a class="recipe-card" href="recipes/lava-cake.html">
+                    <img src="recipes/images/lava-cake.jpg" alt="lava cake">
+                    <h3>lava cake</h3>
+                </a>
+                    
+            </div>
+        </div>
+    </div>
 </body>
 </html>
