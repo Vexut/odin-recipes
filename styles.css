@@ -91,18 +91,6 @@ h2 {
     border-radius: 20px;
 }
 
-.description-box {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto 40px auto;
-    padding: 20px 25px;
-    background: white;
-    border-radius: 15px;
-    line-height: 1.5;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    font-size: 18px;
-}
-
 .recipe-content {
     width: 100%;
     max-width: 800px;
@@ -111,6 +99,17 @@ h2 {
     margin: 0 auto 40px auto;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+
+.description-box {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px 25px;
+    background: white;
+    border-radius: 15px;
+    line-height: 1.5;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 18px;
 }
 
 .ingredients-box {
